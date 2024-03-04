@@ -2770,3 +2770,12 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
+.misocial {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  font-size: small;
+  padding: 10px;
+}
