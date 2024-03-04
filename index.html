@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkinCity- London Laser Hair Removal</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header-wrap">
+        <div class="container">
+          <div class="header">
+            <a href="index.html" class="header__logo"
+              ><img src="/img/logo.png" alt="logo"
+            /></a>
+            <nav class="header__nav">
+              <a class="header__nav-item" href="#about-us">About Us</a>
+              <a class="header__nav-item" href="#advantages">Advantages</a>
+              <a class="header__nav-item" href="#process">How It Works?</a>
+              <a class="header__nav-item" href="#price">Prices</a>
+              <a class="header__nav-item" href="#contacts">Contacts</a>
+              <a class="header__nav-item" href="#price">Sign Up</a>
+            </nav>
+
+            <a href="tel: +1 226-234-0339" class="header__call"
+              ><img src="./img/call.svg" alt="call"
+            /></a>
+            <img class="header__burger" src="./img/burger.svg" alt="" />
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-wrapper">
+          <div class="container">
+            <div class="hero">
+              <div class="hero__left">
+                <img src="./img/hero.png" alt="" />
+              </div>
+              <div class="hero__right">
+                <h1 class="hero__title">Laser hair removal</h1>
+                <p class="hero__text">
+                  Receive the full range of services from us to make your body
+                  smooth.
+                </p>
+
+                <button class="hero__request-btn">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <ul class="hero__list">
+            <li class="hero__item">
+              <img src="./img/heir.svg" alt="" />
+              <p>
+                A laser device that allows working with different types of hair.
+              </p>
+            </li>
+            <li class="hero__item">
+              <img src="./img/clock.svg" alt="" />
+              <p>Saves your time and ensures lasting results</p>
+            </li>
+            <li class="hero__item">
+              <img src="./img/people.svg" alt="" />
+              <p>Professionalism and individual approach to each client</p>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-overlay">
+          <div class="modal">
+            <button class="modal__close" type="button">
+              <img src="./img/close.svg" alt="" />
+            </button>
+            <img class="modal__form-img" src="./img/forn-2.svg" alt="" />
+            <h4 class="modal__form-title">Leave a request for a discount</h4>
+
+            <form class="modal__form-item">
+              <input
+                class="modal__form-input"
+                type="text"
+                placeholder="Name"
+                required
+                maxlength="20"
+              />
+              <input
+                class="modal__form-input"
+                type="text"
+                placeholder="Phone number"
+                value=""
+                required
+                maxlength="13"
+                pattern="[0-9+]+"
+                onfocus="if(this.value==='') this.value='+1';"
+                onblur="if(this.value==='+1') this.value='';"
+                oninput="this.value = this.value.replace(/[^0-9+]/g, '');"
+              />
+              <button class="modal__form-submit" type="submit">Sign Up</button>
+            </form>
+          </div>
+        </div>
+        <section id="about-us" class="about-us-wrapper">
+          <div class="container">
+            <div class="about-us">
+              <div class="about-us__images">
+                <div class="about-us__images-main">
+                  <img src="./img/about-us/1.png" alt="" />
+                </div>
+                <ul class="about-us__images-list">
+                  <li>
+                    <div class="small-img">
+                      <img src="./img/about-us/2.png" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="small-img">
+                      <img src="./img/about-us/3.png" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    <div class="small-img">
+                      <img src="./img/about-us/4.png" alt="" />
+                    </div>
+                  </li>
+                </ul>
+                <div></div>
+              </div>
+              <div class="about-us__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide small-img-slide">
+                    <img src="./img/about-us/1.png" alt="" />
+                  </div>
+                  <div class="swiper-slide small-img-slide">
+                    <img src="./img/about-us/2.png" alt="" />
+                  </div>
+                  <div class="swiper-slide small-img-slide">
+                    <img src="./img/about-us/3.png" alt="" />
+                  </div>
+                  <div class="swiper-slide small-img-slide">
+                    <img src="./img/about-us/4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="about-us__content">
+                <img
+                  class="about-us__content-logo"
+                  src="/img/logo.png"
+                  alt=""
+                />
+                <p class="about-us__content-text">
+                  We use original professional equipment in the studio. The
+                  master has undergone training from official representatives
+                  and holds relevant certificates. The course of procedures is
+                  individually tailored for each client. During the laser hair
+                  removal procedure, we use the MedicaLaser D-Las 100 mix laser
+                  - the epilation is painless and effective. Certificates are
+                  available for all devices used in the procedure.
+                </p>
+
+                <p class="about-us__content-title">Skincity offers:</p>
+                <ul class="about-us__content-list">
+                  <li>- optimal price-quality ratio</li>
+                  <li>- noticeable results after the first sessions</li>
+                  <li>- original European equipment</li>
+                  <li>- individual approach to each client</li>
+                  <li>- use of quality anesthetics</li>
+                  <li>
+                    - the master has undergone training from official
+                    representatives
+                  </li>
+                  <li>
+                    - during laser hair removal procedures, we use the latest
+                    generation laser, making the procedure completely painless
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="advantages" class="advantages-wrapper">
+          <div class="container">
+            <div class="advantages">
+              <div class="advantages__title">
+                <img src="./img/square.svg" alt="" />
+                <h2>Advantages of the procedure</h2>
+              </div>
+              <ul class="advantages__list">
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-1.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">Long -term results</h3>
+                    <p class="advantages__item-text">
+                      Laser hair removal provides a long result that reduces the
+                      need for recurrent procedures.
+                    </p>
+                  </div>
+                </li>
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-2.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">Saving time</h3>
+                    <p class="advantages__item-text">
+                      Compared to shaving and using wax, laser Depilation can
+                      significantly save time for long results.
+                    </p>
+                  </div>
+                </li>
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-3.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">
+                      Painlessness and comfort
+                    </h3>
+                    <p class="advantages__item-text">
+                      Most people experience minimal discomfort during
+                      procedures compared to other methods of waxing.
+                    </p>
+                  </div>
+                </li>
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-4.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">Individual approach</h3>
+                    <p class="advantages__item-text">
+                      Different types of lasers and settings address various
+                      skin characteristics, ensuring effectiveness for different
+                      phototypes.
+                    </p>
+                  </div>
+                </li>
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-5.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">
+                      Effective in different areas of the body
+                    </h3>
+                    <p class="advantages__item-text">
+                      Laser waxing can be successfully performed on different
+                      parts of the body, including face, body and intimate
+                      areas.
+                    </p>
+                  </div>
+                </li>
+                <li class="advantages__item">
+                  <img
+                    class="advantages__item-img"
+                    src="./img/advantages-6.svg"
+                    alt=""
+                  />
+                  <div class="advantages__item-info">
+                    <h3 class="advantages__item-title">
+                      Minimum risk of skin injury
+                    </h3>
+                    <p class="advantages__item-text">
+                      Laser waxing reduces the risks of cuts, irritation and
+                      ingrown hair that can occur with other methods depilation.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="process" class="process-wrapper">
+          <div class="container">
+            <div class="process">
+              <div class="process__title">
+                <img src="./img/title-circle.svg" alt="" />
+                <h2>How does it all happen?</h2>
+              </div>
+              <div class="process__top swiper">
+                <div class="process__top-wrap swiper-wrapper">
+                  <div class="process__top-item swiper-slide active">
+                    <p>Indications and Contraindications</p>
+                  </div>
+                  <div class="process__top-item swiper-slide">
+                    <p>Preparation for the Procedure</p>
+                  </div>
+                  <div class="process__top-item swiper-slide">
+                    <p>Stages of the Procedure</p>
+                  </div>
+                  <div class="process__top-item swiper-slide">
+                    <p>Recommended Schedule</p>
+                  </div>
+                  <div class="process__top-item swiper-slide">
+                    <p>Skin Care</p>
+                  </div>
+                  <div class="process__top-item swiper-slide">
+                    <p>Procedure Results</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="process__bottom-wrap d-block">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide one">
+                      <h4>Indications for Women</h4>
+                      <ul>
+                        <li>
+                          Hirsutism (upper lip, chin, hair on the abdomen and
+                          chest)
+                        </li>
+                        <li>
+                          Hypertrichosis (hair on the back, neck, other areas)
+                        </li>
+                        <li>Hygienic areas (bikini area, armpits)</li>
+                        <li>Aesthetic areas (arms, legs, eyebrow area)</li>
+                        <li>
+                          Presence of discomfort affecting personal self-esteem
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="process__bottom-item swiper-slide one">
+                      <h4>Indications for men</h4>
+                      <ul>
+                        <li>
+                          Need for constant shaving of facial areas (beard,
+                          mustache, sideburns, eyebrows)
+                        </li>
+                        <li>You need to contour facial hair</li>
+                        <li>You want to address problems with ingrown hair</li>
+                        <li>Excessive hair on the back and chest</li>
+                        <li>
+                          You spend a lot of time on daily shaving procedures
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="process__bottom-item swiper-slide one">
+                      <h4>Contraindications for the Procedure</h4>
+                      <ul>
+                        <li>Inflammatory processes in the body</li>
+                        <li>Pregnancy or breastfeeding</li>
+                        <li>Presence of metal in the body</li>
+                        <li>Decompensated diabetes mellitus</li>
+                        <li>
+                          Damage to the epidermis in the treatment area and
+                          presence of skin infections
+                        </li>
+                        <li>Oncology</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows none">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <div class="process__bottom-wrap">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide two">
+                      <h4>Shaving the processing zone</h4>
+                      <p>
+                        Shave the hair in the area where laser hair removal will
+                        be performed a few days before the procedure to ensure
+                        optimal results.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide two">
+                      <h4>Avoid Lotions and Similar Products</h4>
+                      <p>
+                        Before the procedure, avoid using creams, lotions, or
+                        deodorants in the area to be treated, as some substances
+                        may affect the effectiveness of laser hair removal.
+                      </p>
+                    </div>
+
+                    <div class="process__bottom-item swiper-slide two">
+                      <h4>Avoiding Sun Exposure</h4>
+                      <p>
+                        Refrain from sunbathing or using tanning beds before the
+                        procedure, as tanning can increase the risk of
+                        irritation and pigmentation changes.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide two">
+                      <
+                      <h4>Medical Condition Check</h4>
+                      <p>
+                        Before starting the procedure, consult with a doctor or
+                        licensed professional to determine suitability and
+                        discuss potential risks and side effects.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="process__bottom-wrap">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Consultation with a Specialist</h4>
+                      <p>
+                        Before the procedure begins, the client receives a
+                        consultation from a licensed specialist, where expected
+                        results, safety concerns, and individual characteristics
+                        are discussed.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Skin Preparation</h4>
+                      <p>
+                        Prior to the procedure, the skin in the treatment area
+                        is cleansed and dehydrated to enhance the penetration of
+                        laser radiation.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Equipment Adjustment</h4>
+                      <p>
+                        The specialist sets the parameters of the laser, such as
+                        intensity and wavelength, according to the patient's
+                        skin type and hair characteristics.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Procedure Execution</h4>
+                      <p>
+                        Epilation is performed by directing laser radiation at
+                        the hair follicles, where the laser energy penetrates
+                        and destroys the hair down to the root.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Cooling and Soothing</h4>
+                      <p>
+                        During the procedure, a cooling system is used to reduce
+                        discomfort and prevent skin irritation.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide three">
+                      <h4>Post-Procedure Care</h4>
+                      <p>
+                        The specialist provides recommendations for care,
+                        including avoiding sunlight and using creams to reduce
+                        potential irritations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="process__bottom-wrap">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide four">
+                      <h4>First Session</h4>
+                      <p>
+                        The initial stage where the parameters of laser hair
+                        removal are determined and a test session is conducted.
+                        This may include consultation, determining skin type,
+                        and testing the laser's impact on a small area.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide four">
+                      <h4>Main Session Series</h4>
+                      <p>
+                        Over 4-8 sessions with regular intervals (usually 4-6
+                        weeks), the main series of procedures is conducted. The
+                        frequency of sessions may vary depending on the
+                        treatment area and the client's individual
+                        characteristics.
+                      </p>
+                    </div>
+
+                    <div class="process__bottom-item swiper-slide four">
+                      <h4>Maintenance Sessions</h4>
+                      <p>
+                        After completing the main series of sessions, it is
+                        recommended to periodically undergo maintenance sessions
+                        to sustain the results. Intervals between such sessions
+                        may range from 2 to 6 months.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide four">
+                      <h4>Evaluation of Results</h4>
+                      <p>
+                        Upon completion of the main course of laser hair
+                        removal, an evaluation of the results is conducted, and
+                        the specialist advises the client on further care and
+                        the possible need for additional procedures.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="process__bottom-wrap">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        Use a non-greasy soothing cream or gel with aloe vera to
+                        reduce potential irritation and prevent redness.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        If you experience mild itching, you can use
+                        antihistamine preparations or remedies recommended by a
+                        specialist.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        On the first day after the procedure, it's better to
+                        avoid hot baths and jacuzzis, as heat can irritate the
+                        skin.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        After laser hair removal, avoid prolonged sun exposure
+                        for several days. If you go outside, use high sun
+                        protection products.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        During the week after laser hair removal, avoid friction
+                        or rubbing in the treated area.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide five">
+                      <p>
+                        For several days after the procedure, limit intense
+                        physical activity to avoid skin irritation and maintain
+                        results.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="process__bottom-wrap">
+                <div class="process__bottom swiper">
+                  <div class="process__bottom-wrapper swiper-wrapper">
+                    <div class="process__bottom-item swiper-slide six">
+                      <h4>Reducing hair volume</h4>
+                      <p>
+                        Laser hair removal helps reduce the amount of hair in
+                        the treated area, resulting in a smoother skin
+                        sensation.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide six">
+                      <h4>Noticeable absence of hair</h4>
+                      <p>
+                        In the treated area, you can observe the absence of
+                        visible hair compared to the state before the
+                        procedures.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide six">
+                      <h4>Long-lasting effect</h4>
+                      <p>
+                        The effect of laser hair removal is long-lasting, and
+                        many people can feel skin smoothness for a long time
+                        without the need for regular shaving or other depilation
+                        methods.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide six">
+                      <h4>Reduced hair growth</h4>
+                      <p>
+                        Hair that grows after laser hair removal may be thinner
+                        and less noticeable, making it less vulnerable to views.
+                      </p>
+                    </div>
+                    <div class="process__bottom-item swiper-slide six">
+                      <h4>Improvement of skin structure</h4>
+                      <p>
+                        Laser epilation can lead to an improvement in skin
+                        structure and a reduction in irritation or rashes
+                        associated with other depilation methods.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="process__bottom-arrows">
+                  <button class="process__bottom-arr-prev">
+                    <img src="./img/arr-l.svg" alt="" />
+                  </button>
+                  <button class="process__bottom-arr-next">
+                    <img src="./img/arr-r.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="price" class="order-wrapper">
+          <div class="container">
+            <div class="order">
+              <div class="order__title">
+                <img src="./img/square-2.svg" alt="" />
+                <h2>order procedures</h2>
+              </div>
+              <div class="order__content">
+                <div class="order__price">
+                  <h4>Hygienic zone</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <div class="item__top-status">
+                            <img src="./img/star.svg" alt="" />
+                            <span>Popular</span>
+                          </div>
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/1.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Armpits</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <div class="item__top-status">
+                            <img src="./img/star.svg" alt="" />
+                            <span>Popular</span>
+                          </div>
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/2.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Deep Bikini</h5>
+
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/3.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Bikini is classic</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4>Hygienic zone</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/4.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Knee with shin</h5>
+
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/5.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Thighs</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <div class="item__top-status">
+                            <img src="./img/star.svg" alt="" />
+                            <span>Popular</span>
+                          </div>
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/6.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Legs completely</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4>Leg area</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/7.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Across</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/8.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Buttocks</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/9.png" alt="" />
+                        </div>
+                        <h5 class="item__name">The abdomen is completely</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4>Hand area</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/10.png" alt="" />
+                        </div>
+                        <h5 class="item__name">A stomach line</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/11.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Whiskers</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/12.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Chin</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4>Central zone</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/13.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Hands to elbows</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/14.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Hands completely</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/15.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Toes / legs</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h4>Head zone</h4>
+                  <div class="order__price-row swiper">
+                    <div class="order__price-list swiper-wrapper">
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/16.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Sideburns</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/17.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Neck</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                      <div class="item swiper-slide">
+                        <div class="item__top">
+                          <p class="item__top-time">$99</p>
+                        </div>
+                        <div class="item__img">
+                          <img src="./img/order/18.png" alt="" />
+                        </div>
+                        <h5 class="item__name">Full face</h5>
+                        <div class="item__price">
+                          <p class="item__price-new">$99</p>
+                          <p class="item__price-old">$99</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__form">
+                  <img class="order__form-img" src="./img/form.svg" alt="" />
+                  <h4 class="order__form-title">Order procedures</h4>
+                  <p class="order__form-service">
+                    Depilation: <span>Armpits</span>
+                  </p>
+                  <form class="order__form-item">
+                    <input
+                      class="order__form-input"
+                      type="text"
+                      placeholder="Name"
+                      required
+                      maxlength="20"
+                    />
+                    <input
+                      class="order__form-input"
+                      type="text"
+                      placeholder="Phone number"
+                      value=""
+                      required
+                      maxlength="13"
+                      pattern="[0-9+]+"
+                      onfocus="if(this.value==='') this.value='+1';"
+                      onblur="if(this.value==='+1') this.value='';"
+                      oninput="this.value = this.value.replace(/[^0-9+]/g, '');"
+                    />
+                    <button class="order__form-submit" type="submit">
+                      Sign Up
+                    </button>
+                  </form>
+                  <button class="order__form-btn">
+                    Schedule Call Appointment
+                  </button>
+                  <a class="order__form-num" href="tel: +1 2262340339"
+                    >226-234-0339</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="modal-overlay-second">
+          <div class="modal">
+            <button class="modal__close-second" type="button">
+              <img src="./img/close.svg" alt="" />
+            </button>
+            <img class="modal__form-img" src="./img/form.svg" alt="" />
+            <h4 class="modal__form-title">Order procedures</h4>
+            <p class="modal__form-service">Depilation: <span></span></p>
+            <form class="modal__form-item">
+              <input
+                class="modal__form-input"
+                type="text"
+                placeholder="Name"
+                required
+                maxlength="20"
+              />
+              <input
+                class="modal__form-input"
+                type="text"
+                placeholder="Phone number"
+                value=""
+                required
+                maxlength="13"
+                pattern="[0-9+]+"
+                onfocus="if(this.value==='') this.value='+1';"
+                onblur="if(this.value==='+1') this.value='';"
+                oninput="this.value = this.value.replace(/[^0-9+]/g, '');"
+              />
+              <button class="modal__form-submit" type="submit">Sign Up</button>
+            </form>
+            <button class="modal__form-btn">I call myself</button>
+            <a class="modal__form-num" href="tel: +1 2262340339"
+              >+1 226-234-0339</a
+            >
+          </div>
+        </div>
+        <section class="master-wrapper">
+          <div class="container">
+            <div class="master">
+              <div class="master__title">
+                <img src="./img/circle-2.svg" alt="" />
+                <h2>Our experts</h2>
+              </div>
+              <div class="master__content">
+                <img
+                  class="master__content-img"
+                  src="/img/Daniela.jpg"
+                  alt=""
+                />
+                <div class="master__content-info">
+                  <h3>Daniela Lopez</h3>
+                  <ul>
+                    <li>Laser hair removal</li>
+                    <li>Trained by official representatives of MEDICALASER</li>
+                    <li>Hold all relevant certificates</li>
+                    <li>2 years of experience</li>
+                  </ul>
+                </div>
+              </div>
+              <br />
+              <br />
+              <div class="master__content">
+                <img class="master__content-img" src="/img/Brenda.jpg" alt="" />
+                <div class="master__content-info">
+                  <h3>Brenda Orellana</h3>
+                  <ul>
+                    <li>Laser hair removal</li>
+                    <li>Trained by official representatives of MEDICALASER</li>
+                    <li>Hold all relevant certificates</li>
+                    <li>2 years of experience</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="certificates-wrap">
+          <div class="container">
+            <div class="certificates">
+              <div class="certificates__title">
+                <img src="./img/triangle.svg" alt="" />
+                <h2>Best Benefits</h2>
+              </div>
+              <div class="certificates__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="certificates__slider-item swiper-slide">
+                    <img src="/img/certificates/001.jpg" alt="" />
+                  </div>
+                  <div class="certificates__slider-item swiper-slide">
+                    <img src="/img/certificates/002.jpg" alt="" />
+                  </div>
+                  <div class="certificates__slider-item swiper-slide">
+                    <img src="/img/certificates/003.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="sale" class="sale-wrap">
+          <div class="container">
+            <div class="sale">
+              <div class="sale__title">
+                <img src="./img/triangle.svg" alt="" />
+                <img src="./img/triangle-2.svg" alt="" />
+                <h2>Get Additional Discount!</h2>
+              </div>
+              <div class="sale__content">
+                <div class="sale__right">
+                  <div class="sale__right-service service active-service">
+                    <div class="service__top">
+                      <p class="service__top-price">-46%</p>
+                      <p class="service__top-price">$99</p>
+                    </div>
+                    <div class="service__middle">
+                      <div class="service__middle-img">
+                        <img src="./img/sale/1.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="service__bottom">
+                      <p class="service__bottom-text">Armpits</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Bikini</p>
+                    </div>
+                  </div>
+                  <div class="sale__right-service service">
+                    <div class="service__top">
+                      <p class="service__top-price">-44%</p>
+                      <p class="service__top-price">$99</p>
+                    </div>
+                    <div class="service__middle">
+                      <div class="service__middle-img">
+                        <img src="./img/sale/1.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/2.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="service__bottom">
+                      <p class="service__bottom-text">Armpits</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Bikini</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Legs</p>
+                    </div>
+                  </div>
+                  <div class="sale__right-service service">
+                    <div class="service__top">
+                      <p class="service__top-price">-49%</p>
+                      <p class="service__top-price">$99</p>
+                    </div>
+                    <div class="service__middle">
+                      <div class="service__middle-img">
+                        <img src="./img/sale/1.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/2.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/3.png" alt="" />
+                      </div>
+                      <div class="service__middle-img">
+                        <img src="./img/sale/4.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="service__bottom">
+                      <p class="service__bottom-text">Armpits</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Bikini</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Legs</p>
+                      <p class="service__bottom-text">+</p>
+                      <p class="service__bottom-text">Hands</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="sale__left">
+                  <div class="sale__form">
+                    <img class="sale__form-img" src="./img/forn-2.svg" alt="" />
+                    <h4 class="sale__form-title">
+                      Leave a Request for Discount
+                    </h4>
+                    <p class="sale__form-service">Armpits + Bikini</p>
+                    <form class="sale__form-item">
+                      <input
+                        class="sale__form-input"
+                        type="text"
+                        placeholder="Name"
+                        required
+                        maxlength="20"
+                      />
+                      <input
+                        class="sale__form-input"
+                        type="text"
+                        placeholder="Phone number"
+                        value=""
+                        required
+                        maxlength="13"
+                        pattern="[0-9+]+"
+                        onfocus="if(this.value==='') this.value='+1';"
+                        onblur="if(this.value==='+1') this.value='';"
+                        oninput="this.value = this.value.replace(/[^0-9+]/g, '');"
+                      />
+                      <button class="sale__form-submit" type="submit">
+                        Sign up
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="contact-wrap">
+          <div class="container">
+            <div class="contact">
+              <div class="contact__title">
+                <img src="./img/contact-title.svg" alt="" />
+                <h2>Where are we located?</h2>
+              </div>
+              <div class="contact__content">
+                <iframe
+                  class="contact__content-map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23355.186709764082!2d-81.23940845!3d42.96988195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef23c9fe819f7%3A0x16b2d91e91851492!2sSouth%20London%2C%20London%2C%20Ontario!5e0!3m2!1ses-419!2sca!4v1709506503395!5m2!1ses-419!2sca%22"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+                <ul>
+                  <li>City: London, ON</li>
+                  <li>South London</li>
+                  <li>....</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer-wrap">
+        <div class="container">
+          <div class="footer">
+            <div class="footer__logo-mobile">
+              <img src="/img/footer-logo-mobile.png" alt="" />
+            </div>
+            <div class="footer__list">
+              <h5 class="footer__list-title">Work schedule:</h5>
+              <ul class="footer__list-list first">
+                <li class="footer__list-item">
+                  From Monday to Friday - from 5:30pm to 10:00pm
+                </li>
+                <li class="footer__list-item">
+                  Saturday - from 10:00am to 5:00pm
+                </li>
+                <li class="footer__list-item">
+                  Sunday - from 11:00am to 4:00pm
+                </li>
+              </ul>
+              <h5 class="footer__list-title">Contacts</h5>
+              <ul class="footer__list-list">
+                <li class="footer__list-item">
+                  <a href="tel: +1 226-234-0339">Daniela Lopez 226-234-0339</a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="tel: +1 226-678-1854"
+                    >Brenda Orellana 226-678-1854</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <img
+              class="footer__logo"
+              src="/img/footer-logo-mobile.png"
+              alt=""
+            />
+            <ul class="footer__social">
+              <li>
+                <a href="#"><img src="./img/insta.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/telega.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="./img/whatsapp.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
