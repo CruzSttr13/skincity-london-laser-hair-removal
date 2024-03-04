@@ -10,14 +10,14 @@ SkinCity- London Laser Hair Removal is based in London, Ontario, Canada, special
 
 ## Project Status
 
-The website is currently being developed.
+The website is currently being developed. The provisional link during the development of the site is [SkinCity- London Laser Hair Removal](https://skincity519.netlify.app/).
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- 
+
 ## How to Contribute
 
 We welcome contributions! Feel free to fork this repository and submit pull requests.
